@@ -17,7 +17,10 @@ return {
     "neovim-treesitter/nvim-treesitter",
     lazy = false,
     build = ":TSUpdate",
-    dependencies = { "nvim-lua/plenary.nvim" },
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "neovim-treesitter/treesitter-parser-registry",
+    },
     config = function()
       local nts = require("nvim-treesitter")
       nts.setup({ install_dir = vim.fn.stdpath("data") .. "/site" })
