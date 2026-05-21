@@ -1,0 +1,12 @@
+# Runtime / data artifacts (never live inside ~/.config/nvim, but belt + braces)
+*.swp
+*.swo
+*.bak
+.DS_Store
+
+# Local-only overrides
+lua/config/local.lua
+lua/plugins/local.lua
+
+# Anything generated under here that isn't tracked
+/spell/
