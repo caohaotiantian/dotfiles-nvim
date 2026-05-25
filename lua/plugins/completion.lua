@@ -5,7 +5,7 @@ return {
     version = "1.*", -- use prebuilt binaries from release tags
     dependencies = { "rafamadriz/friendly-snippets", "L3MON4D3/LuaSnip" },
     opts = {
-      keymap = { preset = "default" }, -- <C-y> accepts, <C-Space> opens menu
+      keymap = { preset = "super-tab" }, -- <Tab> accepts/expands snippet, <S-Tab> prev, <C-Space> opens menu
       appearance = { nerd_font_variant = "mono" },
       sources = { default = { "lsp", "path", "snippets", "buffer" } },
       snippets = { preset = "luasnip" },
