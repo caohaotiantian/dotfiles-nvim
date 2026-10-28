@@ -6,7 +6,6 @@
 
 # Local-only overrides
 lua/config/local.lua
-lua/plugins/local.lua
 
 # Anything generated under here that isn't tracked
 /spell/
